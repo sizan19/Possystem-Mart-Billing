@@ -1,7 +1,8 @@
+# Database is located inside the folder
 
 # Database boilerplate code so that it can be reused within the whole program
 
-
+<!-- database function -->
 class function
 {
     protected SqlConnection GetConnection()
@@ -21,7 +22,6 @@ class function
         da.Fill(ds);
         return ds;
     }
-
     public void SetData(string query)
     {
         SqlConnection conn = GetConnection();
@@ -34,6 +34,10 @@ class function
         MessageBox.Show("data processed sucessfully.", "sucess", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 }
+<!-- database function -->
+
+
+
 
 
 
@@ -151,3 +155,5 @@ class function
         }
     }
 
+# watch youtube tutorial for github instruction
+link :

@@ -3,8 +3,9 @@
 # Database boilerplate code so that it can be reused within the whole program
 
 <!-- database function -->
+```
 class function
-{
+    {
     protected SqlConnection GetConnection()
     {
         SqlConnection conn = new SqlConnection();
@@ -34,6 +35,8 @@ class function
         MessageBox.Show("data processed sucessfully.", "sucess", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 }
+```
+
 <!-- database function -->
 
 
